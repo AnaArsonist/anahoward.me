@@ -1,9 +1,14 @@
 import { useCallback } from 'react'
+import { useEffect } from 'react'
 import { useTheme } from 'next-themes'
 import { MoonIcon, SunIcon } from '@heroicons/react/outline'
 
 const ThemeSwitcher = ({ className = '' }) => {
 	const { resolvedTheme, setTheme } = useTheme()
+
+	useEffect(() => {
+		setTheme('light')
+	}, [setTheme])
 
 	const toggleTheme = useCallback(() => {
 		setTheme(resolvedTheme === 'light' ? 'dark' : 'light')
