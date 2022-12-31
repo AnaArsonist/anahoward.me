@@ -29,14 +29,14 @@ const IntroCard = ({ section }) => {
 					>
 						<Image className="dark:brightness-90" src={Transparentpfp} />{' '}
 					</motion.div>
-					<div className="text-3xl md:text-4xl m-6 ml-10 md:m-8 font-nunito font-bold">Hi, I'm Ana!</div>
+					<div className="text-3xl md:text-4xl m-6 ml-10 md:m-8 font-nunito font-bold">Hi, I&apos;m Ana!</div>
 				</div>
 				<div className="flex flex-col ml-10 justify-center">
 					<div className="lg:text-xl font-nunito text-gray-500">
 						{' '}
-						I'm an 18 year-old student doing a BASc in Interdisciplinary Problems and Methods @
+						I&apos;m an 18 year-old student doing a BASc in Interdisciplinary Problems and Methods @
 						<a
-							className=" ml-1 underline-offset-2 underline focus:outline-none"
+							className="ml-1 underline-offset-2 underline focus:outline-none"
 							href="https://lis.ac.uk"
 							target="_blank"
 						>
@@ -44,7 +44,7 @@ const IntroCard = ({ section }) => {
 						</a>
 					</div>
 					<div className="flex lg:text-xl text-gray-500 mt-5">
-						I'm interested in art, keyboards and meowies!
+						I&apos;m interested in art, keyboards and meowies!
 					</div>
 				</div>
 			</div>
