@@ -5,6 +5,7 @@ const DiscordCard = ({ section }) => {
 		<motion.a
 			href="https://discord.gg/UfYzpX9TwQ"
 			target="_blank"
+			rel="noreferrer"
 			animate={{ opacity: ['all', 'contact'].includes(section) ? 1 : 0.3 }}
 			whileHover="groupHover"
 			variants={{

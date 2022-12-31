@@ -5,6 +5,7 @@ const MailCard = ({ section }) => {
 		<motion.a
 			href="mailto:hello@anahoward.me"
 			target="_blank"
+			rel="noreferrer"
 			animate={{ opacity: ['all', 'contact'].includes(section) ? 1 : 0.3 }}
 			className="rounded-3xl bg-teal-300 saturate-50 dark:saturate-150 dark:bg-teal-800 flex justify-center items-center col-span-1 relative"
 			whileHover="groupHover"

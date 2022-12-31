@@ -38,6 +38,7 @@ const IntroCard = ({ section }) => {
 						<a
 							className="ml-1 underline-offset-2 underline focus:outline-none"
 							href="https://lis.ac.uk"
+							rel="noreferrer"
 							target="_blank"
 						>
 							LIS

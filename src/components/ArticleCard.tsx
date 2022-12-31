@@ -6,6 +6,7 @@ const ArticleCard = ({ section }) => {
 		<motion.a
 			whileHover="groupHover"
 			href="https://typefully.com/AnaArsonist"
+			rel="noreferrer"
 			animate={{ opacity: ['all', 'about'].includes(section) ? 1 : 0.3 }}
 			target="_blank"
 			variants={{
