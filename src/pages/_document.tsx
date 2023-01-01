@@ -1,14 +1,29 @@
 import { Html, Head, Main, NextScript } from 'next/document'
+
 export default function Document() {
 	return (
 		<Html className="">
 			<Head>
-				<title>Ana Howard</title>
-				<link
-					rel="icon"
-					href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E👀%3C/text%3E%3C/svg%3E"
-				/>
-				<meta name="description" content="👋 wagwan! welcome to my site" />
+				<link rel="icon" href="data:;base64,iVBORw0KGgo=" />
+
+				<title>Ana Howard - Colourful Haired Human</title>
+				<meta name="title" content="Ana Howard - Colourful Haired Human" />
+				{/* facebook  / open graph */}
+				<meta property="og:type" content="website" />
+				<meta property="og:url" content="https://metatags.io/"></meta>
+				<meta property="og:title" content="Ana Howard - Colourful Haired Human" />
+				<meta property="og:description" content="" />
+				<meta property="og:image" content="/Users/anahoward/Code/anahoward.me/public/images/preview.png"></meta>
+
+				{/* twitter */}
+				<meta property="twitter:card" content="summary_large_image" />
+				<meta property="twitter:url" content="https://metatags.io/" />
+				<meta property="twitter:title" content="Ana Howard - Colourful Haired Human" />
+				<meta property="twitter:description" content="" />
+				<meta
+					property="twitter:image"
+					content="/Users/anahoward/Code/anahoward.me/public/images/preview.png"
+				></meta>
 			</Head>
 			<body className="bg-[#f7f2f2] dark:bg-gray-800">
 				<Main />
