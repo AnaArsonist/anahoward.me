@@ -12,7 +12,8 @@ function Home() {
 	return (
 		<div className="flex flex-col m-5 font-nunito">
 			<NavBar setSection={setSection} />
-			<div className="grid grid-cols-3 gap-2 md:grid-cols-4 md:gap-4 mt-5 md:ml-20 md:mr-20">
+			<div className="grid grid-cols-3 gap-2 md:grid-cols-4 
+			md:gap-4 mt-5 container mx-auto">
 				<IntroCard section={section} />
 				<TwitterCard section={section} />
 				<ToggleCard section={section} />

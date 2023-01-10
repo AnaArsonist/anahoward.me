@@ -4,9 +4,8 @@ export default function Document() {
 	return (
 		<Html className="">
 			<Head>
-				<link rel="icon" href="data:;base64,iVBORw0KGgo=" />
-
 				<title>Ana Howard - Colourful Haired Human</title>
+				<link rel="icon" type="image/x-icon" href="https://anahoward.me/images/eyesemoji.png" />
 				<meta name="title" content="Ana Howard - Colourful Haired Human" />
 				{/* facebook  / open graph */}
 				<meta property="og:type" content="website" />

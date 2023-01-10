@@ -34,7 +34,7 @@ const MeowyCard = ({ section }) => {
 							ease: 'easeInOut',
 						},
 					}}
-					className="absolute bottom-0 right-0 m-2 md:w-[60px] md:h-[60px] w-[40px] h[40px]"
+					className="absolute bottom-0 right-0 m-2 md:w-[60px] md:h-[60px] xl:w-[100px] xl:h-[100px] w-[40px] h[40px]"
 				>
 					<svg
 						id="Layer_1"
