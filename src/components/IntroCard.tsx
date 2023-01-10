@@ -26,14 +26,14 @@ const IntroCard = ({ section }) => {
 					<motion.div
 						variants={{ groupHover: { y: 150 } }}
 						style={{ rotate: 180, zIndex: 20 }}
-						className="absolute -top-32 xl:-top-52 right-10 rotate-180 -mt-10 w-32 xl:w-60"
+						className="absolute -top-32 2xl:-top-52 right-10 rotate-180 -mt-10 w-32 2xl:w-60"
 					>
 						<Image className="dark:brightness-90" src={Transparentpfp} />{' '}
 					</motion.div>
-					<div className="text-3xl md:text-4xl xl:text-6xl xl:mt-10 m-6 ml-10 md:m-8 font-nunito font-bold">Hi, I&apos;m Ana!</div>
+					<div className="text-3xl md:text-4xl 2xl:text-6xl 2xl:mt-10 m-6 ml-10 md:m-8 font-nunito font-bold">Hi, I&apos;m Ana!</div>
 				</div>
-				<div className="flex flex-col ml-10 justify-center xl:mt-10">
-					<div className="lg:text-xl xl:text-3xl xl:mr-20 font-nunito text-gray-500">
+				<div className="flex flex-col ml-10 justify-center 2xl:mt-10">
+					<div className="lg:text-xl xl:text-2xl 2xl:text-3xl 2xl:mr-20 font-nunito text-gray-500">
 						{' '}
 						I&apos;m an 18 year-old student doing a BASc in Interdisciplinary Problems and Methods @
 						<a
@@ -45,7 +45,7 @@ const IntroCard = ({ section }) => {
 							LIS
 						</a>
 					</div>
-					<div className="flex lg:text-xl xl:text-3xl text-gray-500 mt-5">
+					<div className="flex lg:text-xl xl:text-2xl 2xl:text-3xl text-gray-500 mt-5">
 						I&apos;m interested in art, keyboards and meowies!
 					</div>
 				</div>
