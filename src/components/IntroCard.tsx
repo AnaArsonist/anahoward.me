@@ -22,11 +22,21 @@ const IntroCard = ({ section }) => {
 				<div className="md:hidden absolute top-8 right-10 rotate-180 -mt-10 w-[100px]">
 					<Image className="dark:brightness-75" src={Transparentpfp} />
 				</div>
+				<div className=''>
+					<motion.div
+						variants={{ groupHover: { y: 220 } }}
+						style={{ rotate: 180, zIndex: 20 }}
+						className="hidden 2xl:block absolute -top-32 2xl:-top-52 right-10 rotate-180
+						-mt-10 w-32 2xl:w-60"
+					>
+						<Image className="dark:brightness-90" src={Transparentpfp} />{' '}
+					</motion.div>
+				</div>
 				<div>
 					<motion.div
 						variants={{ groupHover: { y: 150 } }}
 						style={{ rotate: 180, zIndex: 20 }}
-						className="absolute -top-32 2xl:-top-52 right-10 rotate-180 -mt-10 w-32 2xl:w-60"
+						className="2xl:hidden absolute -top-32 2xl:-top-52 right-10 rotate-180 -mt-10 w-32 2xl:w-60"
 					>
 						<Image className="dark:brightness-90" src={Transparentpfp} />{' '}
 					</motion.div>
