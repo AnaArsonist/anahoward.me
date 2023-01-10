@@ -31,8 +31,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/AnaArsonist/anahoward.me.git">
-    <img src="https://anahoward.me/image/transparentpfp" alt="Logo" width="80" height="80">
+  <a href="https://www.anahoward.me">
+    <img src="https://anahoward.me/images/transparentpfp.png" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">anahoward.me</h3>
@@ -43,8 +43,7 @@
     <br />
     <br />
     <a href="https://https://anahoward.me">Check it out</a>
-    ·
-    <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
+    <a href="https://www.twitter.com/AnaArsonist">Request Feature</a>
   </p>
 </div>
 
@@ -78,7 +77,7 @@
 ## 👋 Hi! Welcome to my website c:
 
  <a href="https://github.com/AnaArsonist/anahoward.me.git">
-    <img src="images/preview.png" width="1200" height="628">
+    <img src="https://anahoward.me/images/preview.png" width="1200" height="628">
   </a>
 
 This is my current personal website! It's constantly in development and I thought I would make the code public so you can all see how my skills develop overtime. It's about the journey!
