@@ -32,7 +32,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/AnaArsonist/anahoward.me.git">
-    <img src="images/transparentpfp.png" alt="Logo" width="80" height="80">
+    <img src="https://anahoward.me/image/transparentpfp" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">anahoward.me</h3>
