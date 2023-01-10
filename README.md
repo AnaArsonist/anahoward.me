@@ -18,7 +18,6 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->]
-[![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 [![Twitter][twitter-shield]][twitter-url]
 
@@ -152,7 +151,7 @@ Project Link: [anahoward.me](https://github.com/AnaArsonist/anahoward.me.git)
 [issues-shield]: https://img.shields.io/github/issues/github_username/repo_name.svg?style=for-the-badge
 [issues-url]: https://github.com/github_username/repo_name/issues
 [license-shield]: https://img.shields.io/github/license/github_username/repo_name.svg?style=for-the-badge
-[license-url]: https://github.com/github_username/repo_name/blob/master/LICENSE.txt
+[license-url]: https://github.com/AnaArsonist/
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/ana-howard-45aba9215/
 [product-screenshot]: images/screenshot.png
@@ -172,5 +171,5 @@ Project Link: [anahoward.me](https://github.com/AnaArsonist/anahoward.me.git)
 [Bootstrap-url]: https://getbootstrap.com
 [JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
 [JQuery-url]: https://jquery.com 
-[twitter-shield]: https://img.shields.io/badge/-Twitter-blue
+[twitter-shield]: https://img.shields.io/badge/-Twitter-blue.svg?style=for-the-badge
 [twitter-url]: https://twitter.com/AnaArsonist
