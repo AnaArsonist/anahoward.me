@@ -38,7 +38,7 @@
 <h3 align="center">anahoward.me</h3>
 
   <p align="center">
-    project_description
+    My personal website
     <br />
     <br />
     <br />
@@ -80,6 +80,7 @@
  <a href="https://github.com/AnaArsonist/anahoward.me.git">
     <img src="images/preview.png" width="1200" height="628">
   </a>
+
 This is my current personal website! It's constantly in development and I thought I would make the code public so you can all see how my skills develop overtime. It's about the journey!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
