@@ -18,11 +18,8 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-
 [![LinkedIn][linkedin-shield]][linkedin-url]
 [![Twitter][twitter-shield]][twitter-url]
-
-
 
 <!-- PROJECT LOGO -->
 <br />
@@ -74,7 +71,7 @@
  <a href="https://github.com/AnaArsonist/anahoward.me.git" align="center">
     <img src="https://anahoward.me/images/preview2.png" width="900" height="300">
   </a>
-
+·
 This is my current personal website! It's constantly in development and I thought I would make the code public so you can all see how my skills develop overtime. It's about the journey!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -87,8 +84,6 @@ This is my current personal website! It's constantly in development and I though
 * [![React][React.js]][React-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- GETTING STARTED -->
 
