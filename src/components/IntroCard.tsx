@@ -32,7 +32,7 @@ const IntroCard = ({ section }) => {
 					</motion.div>
 					<div className="text-3xl md:text-4xl xl:text-6xl xl:mt-10 m-6 ml-10 md:m-8 font-nunito font-bold">Hi, I&apos;m Ana!</div>
 				</div>
-				<div className="flex flex-col ml-10 justify-center">
+				<div className="flex flex-col ml-10 justify-center xl:mt-10">
 					<div className="lg:text-xl xl:text-3xl xl:mr-20 font-nunito text-gray-500">
 						{' '}
 						I&apos;m an 18 year-old student doing a BASc in Interdisciplinary Problems and Methods @
