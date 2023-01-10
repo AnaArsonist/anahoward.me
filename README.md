@@ -76,7 +76,7 @@
 ## 👋 Hi! Welcome to my website c:
 
  <a href="https://github.com/AnaArsonist/anahoward.me.git">
-    <img src="https://anahoward.me/images/preview2.png" width="1200" height="628">
+    <img src="https://anahoward.me/images/preview2.png" width="1500" height="500">
   </a>
 
 This is my current personal website! It's constantly in development and I thought I would make the code public so you can all see how my skills develop overtime. It's about the journey!
