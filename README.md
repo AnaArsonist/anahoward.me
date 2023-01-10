@@ -78,7 +78,7 @@
 ## 👋 Hi! Welcome to my website c:
 
  <a href="https://github.com/AnaArsonist/anahoward.me.git">
-    <img src="images/preview.png" alt="Logo" width="1200" height="628">
+    <img src="images/preview.png" width="1200" height="628">
   </a>
 This is my current personal website! It's constantly in development and I thought I would make the code public so you can all see how my skills develop overtime. It's about the journey!
 
@@ -137,9 +137,9 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/AnaArsonist) - hello@anahoward.me
+Ana Howard - [@twitter_handle](https://twitter.com/AnaArsonist) - hello@anahoward.me
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/AnaArsonist/anahoward.me.git)
+Project Link: [anahoward.me](https://github.com/AnaArsonist/anahoward.me.git)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
