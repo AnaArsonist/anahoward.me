@@ -17,9 +17,9 @@ const ToggleCard = ({ section }) => {
 			}}
 			className="bg-white dark:bg-gray-900 rounded-3xl flex justify-center col-span-1"
 		>
-			<div className="flex justify-center items-center md:scale-150">
+			<div className="flex justify-center items-center md:scale-150 2xl:scale-200">
 				<motion.div
-					className="flex items-center scale-150"
+					className="flex items-centers scale-150 2xl:scale-150"
 					initial={{ scale: 1.4 }}
 					whileHover="groupHover"
 					variants={{
