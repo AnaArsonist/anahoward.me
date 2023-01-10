@@ -4,7 +4,8 @@ import Transparentpfp from '@images/transparentpfp.png'
 const IntroCard = ({ section }) => {
 	return (
 		<motion.div
-			className="col-span-3 md:col-span-2 bg-white dark:bg-gray-900 rounded-3xl text-gray-600 dark:text-gray-500 aspect-2/1"
+			className="col-span-3 md:col-span-2 bg-white dark:bg-gray-900
+			 rounded-3xl text-gray-600 dark:text-gray-500 aspect-2/1 pb-4 md:pb-0"
 			whileHover="groupHover"
 			animate={{ opacity: ['all'].includes(section) ? 1 : 1 }}
 			variants={{
