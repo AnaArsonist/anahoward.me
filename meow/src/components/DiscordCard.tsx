@@ -19,7 +19,7 @@ const DiscordCard = ({ section }) => {
 			}}
 			className="rounded-3xl bg-indigo-300 dark:bg-indigo-800 flex justify-center items-center col-span-1 relative"
 		>
-			<div className="flex items-center w-1/2 md:w-full md:justify-center">
+			<div className="flex items-center w-1/2 md:w-full  md:justify-center">
 				<svg
 					width="128px"
 					height="100px"

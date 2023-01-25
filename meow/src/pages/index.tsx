@@ -6,7 +6,9 @@ import MeowyCard from '@/components/MeowyCard'
 import ArticleCard from '@/components/ArticleCard'
 import DiscordCard from '@/components/DiscordCard'
 import MailCard from '@/components/MailCard'
+import SpotifyCard from '@/components/SpotifyCard'
 import { useState } from 'react'
+
 function Home() {
 	const [section, setSection] = useState('all')
 	return (
