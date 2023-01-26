@@ -55,7 +55,7 @@ const IntroCard = ({ section }) => {
 							LIS
 						</a>
 					</div>
-					<div className="flex lg:text-xl xl:text-xl 2xl:text-2xl font-base dark:text-gray-300 mt-5">
+					<div className="flex lg:text-xl xl:text-2xl 2xl:text-2xl font-base dark:text-gray-300 mt-5">
 						I&apos;m interested in art, keyboards and meowies!
 					</div>
 				</div>
