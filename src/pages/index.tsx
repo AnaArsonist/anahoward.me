@@ -7,16 +7,19 @@ import ArticleCard from '@/components/ArticleCard'
 import DiscordCard from '@/components/DiscordCard'
 import MailCard from '@/components/MailCard'
 import { useState } from 'react'
+import SpotifyCard from '@/components/SpotifyCard'
+
 function Home() {
 	const [section, setSection] = useState('all')
 	return (
 		<div className="flex flex-col m-5 font-nunito">
 			<NavBar setSection={setSection} />
 			<div className="grid grid-cols-3 gap-2 md:grid-cols-4 
-			md:gap-4 mt-5 container mx-auto">
+			md:gap-4 mt-5 container mx-auto xl:px-20">
 				<IntroCard section={section} />
 				<TwitterCard section={section} />
 				<ToggleCard section={section} />
+				<SpotifyCard section={section} />
 				<MeowyCard section={section} />
 				<ArticleCard section={section} />
 				<DiscordCard section={section} />

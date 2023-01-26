@@ -40,10 +40,10 @@ const IntroCard = ({ section }) => {
 					>
 						<Image className="dark:brightness-90" src={Transparentpfp} />{' '}
 					</motion.div>
-					<div className="text-3xl md:text-4xl 2xl:text-6xl 2xl:mt-10 m-6 ml-10 md:m-8 font-nunito font-bold">Hi, I&apos;m Ana!</div>
+					<div className="text-3xl md:text-4xl 2xl:text-4xl 2xl:mt-16 m-6 ml-10 md:m-8 font-nunito font-bold">Hi, I&apos;m Ana!</div>
 				</div>
 				<div className="flex flex-col ml-10 justify-center 2xl:mt-10 sm:-mt-6 sm:ml-8">
-					<div className="lg:text-xl xl:text-2xl 2xl:text-3xl 2xl:mr-20 font-nunito text-gray-500">
+					<div className="lg:text-xl xl:text-2xl 2xl:mr-20 font-nunito text-gray-500">
 						{' '}
 						I&apos;m an 18 year-old student doing a BASc in Interdisciplinary Problems and Methods @
 						<a
@@ -55,7 +55,7 @@ const IntroCard = ({ section }) => {
 							LIS
 						</a>
 					</div>
-					<div className="flex lg:text-xl xl:text-2xl 2xl:text-3xl text-gray-500 mt-5">
+					<div className="flex lg:text-xl xl:text-xl 2xl:text-2xl font-base text-gray-500 mt-5">
 						I&apos;m interested in art, keyboards and meowies!
 					</div>
 				</div>
