@@ -52,7 +52,7 @@ const SpotifyCard = ({ section }) => {
 			</div>
 
 			<div className="absolute bottom-0 right-0 rounded-tl-full overflow-hidden dark:brightness-50">
-				<img src={spotifyData?.album.images[0].url} alt="Album Art" className="xl:w-36 xl:h-36 md:w-28 md:h-28 hidden md:block" />
+				<img src={spotifyData?.album.images[0].url} className="xl:w-36 xl:h-36 md:w-28 md:h-28 hidden md:block" />
 			</div>
 
 		</motion.a>
