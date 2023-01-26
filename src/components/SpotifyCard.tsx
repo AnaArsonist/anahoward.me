@@ -37,7 +37,7 @@ const SpotifyCard = ({ section }) => {
 			
 			<div className='flex flex-col text-gray-900 dark:text-gray-100 justify-center xl:ml-7 md:ml-5 mt-5 xl:mt-none ml-2'>
 				<div className="text-[#62DBBE] dark:text-[#1E856D] xl:text-3xl  md:text-lg text-sm font-bold">Currently Listening</div>
-					<div className="items-center justify-center xl:text-2xl md:text-lg text-xs font-semibold truncate w-52 md:w-40 xl:w-56">{spotifyData?.name || "Spotify is down lol"}</div>
+					<div className="items-center justify-center xl:text-2xl md:text-lg text-xs font-semibold truncate w-52 md:w-40 xl:w-56">{spotifyData?.name || "loading..."}</div>
 					<div className="items-center justify-center xl:text-2xl md:text-lg text-xs font-light">{spotifyData?.artists[0].name || ""}</div>	
 			</div>
 			
