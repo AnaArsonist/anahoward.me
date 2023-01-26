@@ -19,11 +19,12 @@ function Home() {
 				<IntroCard section={section} />
 				<TwitterCard section={section} />
 				<ToggleCard section={section} />
+				<DiscordCard section={section} />
 				<SpotifyCard section={section} />
 				<MeowyCard section={section} />
-				<ArticleCard section={section} />
-				<DiscordCard section={section} />
 				<MailCard section={section} />
+				<ArticleCard section={section} />
+				
 			</div>
 		</div>
 	)

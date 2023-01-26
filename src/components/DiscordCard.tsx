@@ -17,12 +17,10 @@ const DiscordCard = ({ section }) => {
 					},
 				},
 			}}
-			className="rounded-3xl bg-indigo-300 dark:bg-indigo-800 flex justify-center items-center col-span-1 relative"
+			className="rounded-3xl bg-indigo-300 dark:bg-indigo-800 flex justify-center items-center col-span-1 relative aspect-square sm:aspect-none"
 		>
-			<div className="flex items-center w-1/2 md:w-full md:justify-center">
+			<div className="flex items-center w-10 md:w-20 lg:w-32 xl:w-1/2 md:justify-center">
 				<svg
-					width="128px"
-					height="100px"
 					viewBox="0 0 256 199"
 					version="1.1"
 					xmlns="http://www.w3.org/2000/svg"
@@ -39,7 +37,7 @@ const DiscordCard = ({ section }) => {
 					</g>
 				</svg>
 			</div>
-			<ArrowCircleUpIcon className="absolute stroke-white dark:stroke-gray-900 bottom-0 right-0 m-2 md:m-5 rotate-45 md:w-[60px] md:h-[60px] w-[30px] h-[30px] hover:text-white" />
+			<ArrowCircleUpIcon className="absolute stroke-white dark:stroke-gray-900 bottom-0 right-0 m-2 md:mb-5 xl:m-5 rotate-45 mb-2 mr-2 w-8 h-8 lg:w-14 lg:h-14 md:w-10 md:h-10 hover:text-white" />
 		</motion.a>
 	)
 }

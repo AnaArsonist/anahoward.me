@@ -7,7 +7,7 @@ const TwitterCard = ({ section }) => {
 			target="_blank"
 			rel="noreferrer"
 			animate={{ opacity: ['all', 'about', 'contact'].includes(section) ? 1 : 0.3 }}
-			className="flex justify-center items-center bg-sky-200 relative dark:bg-sky-700 rounded-3xl col-span-1"
+			className="flex justify-center items-center bg-sky-200 relative dark:bg-sky-700 rounded-3xl col-span-1"	
 			whileHover="groupHover"
 			variants={{
 				groupHover: {
@@ -19,7 +19,7 @@ const TwitterCard = ({ section }) => {
 				},
 			}}
 		>
-			<div className="md:w-[160px] w-16">
+			<div className="w-10 md:w-20 lg:w-32 xl:w-1/2">
 				<svg
 					viewBox="0 0 256 209"
 					version="1.1"
@@ -35,7 +35,7 @@ const TwitterCard = ({ section }) => {
 					</g>
 				</svg>
 			</div>
-			<ArrowCircleUpIcon className="absolute stroke-white dark:stroke-gray-900 bottom-0 right-0 m-2 md:m-5 rotate-45 md:w-[60px] md:h-[60px] w-[30px] h-[30px] hover:text-white" />
+			<ArrowCircleUpIcon className="absolute stroke-white dark:stroke-gray-900 bottom-0 right-0 m-2 md:m-5 md:mb-5 xl:m-5 rotate-45 mb-2 mr-2 w-8 h-8 lg:w-14 lg:h-14 md:w-10 md:h-10" />
 		</motion.a>
 	)
 }

@@ -20,9 +20,9 @@ const MailCard = ({ section }) => {
 			}}
 		>
 			<div className="flex items-center w-full justify-center aspect-square">
-				<MailIcon className="text-white dark:text-gray-900 w-16 h-16 md:w-36 md:h-36" />
+				<MailIcon className="text-white dark:text-gray-900 w-10 md:w-20 lg:w-32 xl:w-1/2" />
 			</div>
-			<ArrowCircleUpIcon className="absolute stroke-white dark:stroke-gray-900 bottom-0 right-0 m-2 md:m-5 rotate-45 md:w-[60px] md:h-[60px] w-[30px] h-[30px] hover:text-white" />
+			<ArrowCircleUpIcon className="absolute stroke-white dark:stroke-gray-900 bottom-0 right-0 md:mb-5 xl:m-5 rotate-45 mb-2 mr-2 w-8 h-8 lg:w-14 lg:h-14 md:w-10 md:h-10 hover:text-white" />
 		</motion.a>
 	)
 }

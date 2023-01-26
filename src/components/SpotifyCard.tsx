@@ -35,14 +35,14 @@ const SpotifyCard = ({ section }) => {
 			}}
 		>
 			
-			<div className='flex flex-col text-gray-900 dark:text-gray-100 justify-center xl:ml-7 md:ml-5 mt-5 xl:mt-none ml-2'>
-				<div className="text-[#62DBBE] dark:text-[#1E856D] xl:text-3xl  md:text-lg text-sm font-bold">Currently Listening</div>
-					<div className="items-center justify-center xl:text-2xl md:text-lg text-xs font-semibold truncate w-52 md:w-40 xl:w-56">{spotifyData?.name || "loading..."}</div>
-					<div className="items-center justify-center xl:text-2xl md:text-lg text-xs font-light">{spotifyData?.artists[0].name || ""}</div>	
+			<div className='flex flex-col text-gray-900 dark:text-gray-100 justify-center xl:ml-7 md:ml-5 mt-5 xl:mt-none ml-4'>
+				<div className="text-[#62DBBE] dark:text-[#1E856D] xl:text-3xl  lg:text-lg text-sm font-bold">Currently Listening</div>
+					<div className="items-center justify-center xl:text-2xl lg:text-lg text-xs font-semibold truncate w-52 md:w-40 xl:w-56">{spotifyData?.name || "loading..."}</div>
+					<div className="items-center justify-center xl:text-2xl lg:text-lg text-xs font-light">{spotifyData?.artists[0].name || ""}</div>	
 			</div>
 			
 			<div 
-				className="absolute text-[#62DBBE] dark:text-[#1E856D] first-letter: fill-current top-0 left-0 m-2 md:m-5 rotate-20 hover:rotate-40 transition md:w-[60px] md:h-[60px] w-[30px] h-[30px]">
+				className="absolute text-[#62DBBE] dark:text-[#1E856D] first-letter: fill-current top-0 left-0 m-2 md:m-5 rotate-20 hover:rotate-40 transition lg:w-[60px] lg:h-[60px] w-[30px] h-[30px]">
 				<svg viewBox="0 0 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid">
     				<title>Spotify</title>
     				<g>
@@ -51,8 +51,8 @@ const SpotifyCard = ({ section }) => {
 				</svg>
 			</div>
 
-			<div className="absolute bottom-0 right-0 rounded-tl-full overflow-hidden dark:brightness-50">
-				<img src={spotifyData?.album.images[0].url} className="xl:w-36 xl:h-36 md:w-28 md:h-28 hidden md:block" />
+			<div className="absolute bottom-0 right-0 rounded-tl-full overflow-hidden dark:brightness-75">
+				<img src={spotifyData?.album.images[0].url} className="xl:w-36 xl:h-36 lg:w-28 lg:h-28 h-20 md:block" />
 			</div>
 
 		</motion.a>
