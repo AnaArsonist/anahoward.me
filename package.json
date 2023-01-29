@@ -12,7 +12,7 @@
 		"@headlessui/react": "^1.7.4",
 		"@heroicons/react": "^1.0.6",
 		"autoprefixer": "^10.4.13",
-		"axios": "^1.2.5",
+		"axios": "^1.2.6",
 		"framer-motion": "^8.5.3",
 		"headlessui": "^0.0.0",
 		"next": "12.1.6",
