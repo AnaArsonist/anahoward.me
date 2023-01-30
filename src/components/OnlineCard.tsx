@@ -15,9 +15,9 @@ const OnlineCard = ({ section }) => {
       case "idle":
       case "dnd":
       case "online":
-        return ["online", "bg-[#6DD2B7]"];
+        return ["online", "bg-[#6DD2B7] dark:bg-[#35AC8C]"];
       case "offline":
-        return ["offline", "bg-[#FFADC6]"];
+        return ["offline", "bg-[#FFADC6] dark:bg-[#FF477E]"];
     }
   }, [data]);
 
