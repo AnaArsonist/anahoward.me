@@ -9,6 +9,8 @@ import MailCard from "@/components/MailCard";
 import SpotifyCard from "@/components/SpotifyCard";
 import { useState } from "react";
 import MapCard from "@/components/MapCard";
+import OnlineCard from "@/components/OnlineCard";
+import TimeCard from "@/components/TimeCard";
 
 function Home() {
   const [section, setSection] = useState("all");
@@ -25,9 +27,10 @@ function Home() {
         <DiscordCard section={section} />
         <SpotifyCard section={section} />
         <MeowyCard section={section} />
-        <MailCard section={section} />
+        <OnlineCard section={section} />
         <ArticleCard section={section} />
         <MapCard section={section} />
+        <MailCard section={section} />
       </div>
     </div>
   );

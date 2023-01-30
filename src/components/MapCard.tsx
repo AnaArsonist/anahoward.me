@@ -27,7 +27,7 @@ const MapCard = ({ section }) => {
       target="_blank"
       rel="noreferrer"
       animate={{ opacity: ["all", "about"].includes(section) ? 1 : 0.3 }}
-      className="flex bg-white dark:bg-gray-900 rounded-3xl col-span-2 md:col-span-1 overflow-hidden relative shadow-sm"
+      className="flex bg-white dark:bg-gray-900 rounded-3xl col-span-2 md:col-span-1 row-span-2 md:row-span-1 overflow-hidden relative shadow-sm"
       whileHover="groupHover"
       variants={{
         groupHover: {
