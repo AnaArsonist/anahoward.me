@@ -51,7 +51,7 @@ const MapCard = ({ section }) => {
         )}
       </div>
       <div className="absolute bottom-0 right-0 flex w-auto h-auto rounded-tl-2xl text-xs md:text-sm xl:text-base dark:bg-white/20 bg-white/40 backdrop-blur-xl backdrop-saturate-150">
-        <div className="flex items-center justify-between space-x-1 px-2 py-1 pl-2 transition text-gray-500 dark:text-white">
+        <div className="flex font-bold items-center justify-between space-x-1 px-2 py-1 pl-2 transition text-gray-500 dark:text-white">
           <div>{data?.location}</div>
           <PinIcon className="w-4 h-4 md:w-6 md:h-6 " />
         </div>
