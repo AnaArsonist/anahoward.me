@@ -41,6 +41,7 @@ const MapCard = ({ section }) => {
       <div className="flex justify-center items-center md:scale-150 2xl:scale-200 ">
         {data && (
           <Image
+            className="saturate-150"
             src={data.url}
             placeholder="blur"
             objectFit="cover"
