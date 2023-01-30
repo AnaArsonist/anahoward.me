@@ -28,7 +28,7 @@ const OnlineCard = ({ section }) => {
       }}
       className={`text-white rounded-3xl flex relative overflow-hidden aspect-square shadow-sm ${bgClass}`}
     >
-      <div className="absolute inset-0 flex items-center justify-center text-2xl font-bold">
+      <div className="absolute inset-0 flex items-center justify-center text-base md:text-2xl xl:text-3xl font-bold">
         <div className="flex items-center gap-2">
           <div className="rounded-full bg-white w-2 h-2 md:w-5 md:h-5 shadow-sm" />
           <p>{status}</p>
