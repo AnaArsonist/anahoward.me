@@ -47,8 +47,8 @@ const MapCard = ({ section }) => {
             placeholder="blur"
             objectFit="cover"
             blurDataURL={data.blurDataURL}
-            width={500}
-            height={500}
+            width={2000}
+            height={2000}
           />
         )}
       </div>
