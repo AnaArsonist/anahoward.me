@@ -37,7 +37,7 @@ function NightComponent() {
   }, []);
 
   return (
-    <div className="bg-[#001324] w-full overflow-hidden col-span-1 row-span-1">
+    <div className="bg-[#001324] w-full overflow-hidden bg-clip-padding col-span-1 row-span-1">
       <canvas
         className="absolute inset-0 h-full w-full opacity-70 md:opacity-100"
         ref={canvasRef}
@@ -73,7 +73,6 @@ function NightComponent() {
               <motion.div
                 initial={false}
                 animate={{
-                  // invert the parent's scale to make the child appear to be the same size
                   scale: [1, 0.9, 0.9, 1, 1],
                 }}
                 transition={{
@@ -86,7 +85,7 @@ function NightComponent() {
               />
               <div className="absolute top-14 left-12 md:top-16 md:left-28 w-2 h-2  md:w-4 md:h-4 rounded-full bg-[#C2C2C2]" />
               <div className="absolute top-10 left-14 md:top-24 md:left-[115px] w-4 h-4 rounded-full bg-[#C2C2C2]" />
-              <div className=" absolute top-10 left-10 md:top-20 md:left-20 w-2 h-2 md:w-8 md:h-8 rounded-full bg-[#C2C2C2]" />
+              <div className="absolute top-10 left-10 md:top-20 md:left-20 w-2 h-2 md:w-8 md:h-8 rounded-full bg-[#C2C2C2]" />
             </div>
           </div>
         </motion.div>
