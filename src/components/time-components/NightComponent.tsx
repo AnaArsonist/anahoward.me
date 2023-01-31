@@ -1,14 +1,24 @@
 import { motion } from "framer-motion";
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import { isWindowDefined } from "swr/_internal";
 
 function NightComponent() {
   const canvasRef = useRef<HTMLCanvasElement>(null);
-  const time = new Date().toLocaleTimeString("en-GB", {
-    hour: "numeric",
-    minute: "numeric",
-    hour12: true,
-  });
+  const [time, setTime] = useState("");
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setTime(
+        new Date().toLocaleTimeString("en-GB", {
+          hour: "numeric",
+          minute: "numeric",
+          hour12: true,
+        })
+      );
+    }, 1000);
+
+    return () => clearInterval(interval);
+  }, []);
 
   useEffect(() => {
     if (!canvasRef.current) return;
