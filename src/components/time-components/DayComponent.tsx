@@ -47,7 +47,7 @@ function DayComponent() {
                   repeat: Infinity,
                   repeatType: "reverse",
                 }}
-                className="bg-[#FEEA9A] w-12 h-12 lg:w-32 lg:h-32 rounded-tl-full relative"
+                className="bg-[#FEEA9A] w-12 h-12 lg:w-32 lg:h-32 xl:w-56 xl:h-56 rounded-tl-full relative"
               />
             </div>
           </div>
