@@ -38,11 +38,13 @@ function NightComponent() {
     <div className="bg-[#001324] w-full overflow-hidden col-span-1 row-span-1">
       <canvas className="absolute inset-0 h-full w-full" ref={canvasRef} />
       <div className="m-5 justify-end">
-        <div className="flex items-baseline space-x-2 opacity-85">
+        <div className="flex items-baseline space-x-1 md:space-x-2 opacity-85">
           <div className="rounded-full bg-white w-2 h-2 md:w-5 md:h-5"></div>
           <div className="flex flex-col">
-            <div className="text-white md:text-2xl font-bold">{time}</div>
-            <div className="text-white md:text-lg font-thin -mt-2">
+            <div className="text-white text-sm md:text-2xl font-bold">
+              {time}
+            </div>
+            <div className="text-white text-sm md:text-lg font-thin -mt-2">
               in the uk
             </div>
           </div>

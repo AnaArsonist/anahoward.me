@@ -2,8 +2,8 @@ import axios from "axios";
 import { useMemo } from "react";
 import useSWR from "swr";
 import { motion } from "framer-motion";
-import { isAfter, add, subHours } from "date-fns";
-import { MoonIcon } from "@heroicons/react/outline";
+import { isAfter, add } from "date-fns";
+
 import NightComponent from "./time-components/NightComponent";
 import DayComponent from "./time-components/DayComponent";
 
@@ -19,6 +19,7 @@ const TimeCard = ({ section }) => {
   }, [data]);
 
   const timeComponent = useMemo(() => {
+    return <DayComponent />;
     if (!data) return null;
 
     if (isAfter(new Date(), add(sunsetTime, { hours: 1 }))) {
