@@ -14,9 +14,9 @@ function DayComponent() {
       <div className="md:m-5 m-2 mt-3 md:mt-5  justify-end">
         <div className="flex items-baseline space-x-1 md:space-x-2 opacity-85">
           <div className="rounded-full bg-white w-2 h-2 md:w-5 md:h-5"></div>
-          <div className="flex flex-col md:text-2xl text-sm">
-            <div className="text-white font-bold">{time}</div>
-            <div className="text-white font-thin -mt-2">in the uk</div>
+          <div className="flex flex-col">
+            <div className="text-white font-bold text-sm md:text-2xl xl:text-4xl">{time}</div>
+            <div className="text-white font-thin -mt-2 text-sm md:text-lg xl:text-2xl">in the uk</div>
           </div>
         </div>
       </div>
