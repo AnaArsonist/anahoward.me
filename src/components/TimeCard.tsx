@@ -2,34 +2,35 @@ import axios from "axios";
 import { useMemo } from "react";
 import useSWR from "swr";
 import { motion } from "framer-motion";
+import { isAfter, add, subHours } from "date-fns";
 import { MoonIcon } from "@heroicons/react/outline";
 import NightComponent from "./time-components/NightComponent";
-import SunriseComponent from "./time-components/SunriseComponent";
+import DayComponent from "./time-components/DayComponent";
 
-const OnlineCard = ({ section }) => {
+const TimeCard = ({ section }) => {
   const { data, isLoading } = useSWR(`/api/time`, (url) =>
     axios.get(url).then((res) => res.data)
   );
 
-  const timeComponent = useMemo(() => {
-    if (!data) return null;
-    switch (data?.results) {
-      case "sunrise":
-        return <SunriseComponent />;
-      case "sunset":
-        return <NightComponent />;
-      case "nautical_twilight_begin":
-        return <NightComponent />;
-      case "nautical_twilight_end":
-        return <NightComponent />;
-      case "astronomical_twilight_begin":
-        return <NightComponent />;
-      case "astronomical_twilight_end":
-        return <NightComponent />;
-    }
+  const [sunriseTime, sunsetTime] = useMemo(() => {
+    if (!data) return [null, null];
+
+    return [new Date(data.results.sunrise), new Date(data.results.sunset)];
   }, [data]);
 
-  console.log(data);
+  const timeComponent = useMemo(() => {
+    if (!data) return null;
+
+    if (isAfter(new Date(), add(sunsetTime, { hours: 1 }))) {
+      return <NightComponent />;
+    }
+
+    if (isAfter(new Date(), sunriseTime)) {
+      return <DayComponent />;
+    }
+
+    return <NightComponent />;
+  }, [data]);
 
   return (
     <motion.div
@@ -43,4 +44,4 @@ const OnlineCard = ({ section }) => {
   );
 };
 
-export default OnlineCard;
+export default TimeCard;

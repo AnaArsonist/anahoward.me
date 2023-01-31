@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { useEffect, useRef } from "react";
 
-function NightComponent() {
+function DayComponent() {
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const time = new Date().toLocaleTimeString("en-GB", {
     hour: "numeric",
@@ -9,34 +9,8 @@ function NightComponent() {
     hour12: true,
   });
 
-  useEffect(() => {
-    if (!canvasRef.current) return;
-
-    const canvas = canvasRef.current;
-    const ctx = canvas.getContext("2d");
-
-    // set canvas dimensions
-    canvas.width = window.innerWidth / 3;
-    canvas.height = window.innerHeight / 3;
-
-    // draw some stars
-    for (let i = 0; i < 100; i++) {
-      ctx.fillStyle = "white";
-      ctx.beginPath();
-      ctx.arc(
-        Math.random() * canvas.width,
-        Math.random() * canvas.height,
-        Math.random() * 2,
-        0,
-        Math.PI * 2
-      );
-      ctx.fill();
-    }
-  }, []);
-
   return (
-    <div className="bg-[#001324] w-full overflow-hidden col-span-1 row-span-1">
-      <canvas className="absolute inset-0 h-full w-full" ref={canvasRef} />
+    <div className="bg-gradient-to-br from-[#0A8DFF] to-[#98CFFF] w-full overflow-hidden col-span-1 row-span-1">
       <div className="m-5 justify-end">
         <div className="flex items-baseline space-x-2 opacity-85">
           <div className="rounded-full bg-white w-2 h-2 md:w-5 md:h-5"></div>
@@ -75,11 +49,8 @@ function NightComponent() {
                   repeat: Infinity,
                   repeatType: "reverse",
                 }}
-                className="bg-[#DFDFDF] w-12 h-12 lg:w-24 lg:h-24 rounded-tl-full relative"
+                className="bg-[#FEEA9A] w-12 h-12 lg:w-32 lg:h-32 rounded-tl-full relative"
               />
-              <div className="absolute top-14 left-12 md:top-16 md:left-28 w-2 h-2  md:w-4 md:h-4 rounded-full bg-[#C2C2C2]" />
-              <div className="absolute top-10 left-14 md:top-24 md:left-[115px] w-4 h-4 rounded-full bg-[#C2C2C2]" />
-              <div className=" absolute top-10 left-10 md:top-20 md:left-20 w-2 h-2 md:w-8 md:h-8 rounded-full bg-[#C2C2C2]" />
             </div>
           </div>
         </motion.div>
@@ -88,4 +59,4 @@ function NightComponent() {
   );
 }
 
-export default NightComponent;
+export default DayComponent;

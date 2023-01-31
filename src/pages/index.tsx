@@ -31,6 +31,7 @@ function Home() {
         <ArticleCard section={section} />
         <MapCard section={section} />
         <MailCard section={section} />
+        <TimeCard section={section} />
       </div>
     </div>
   );

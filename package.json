@@ -13,6 +13,7 @@
 		"@heroicons/react": "v1",
 		"autoprefixer": "^10.4.13",
 		"axios": "^1.2.6",
+		"date-fns": "^2.29.3",
 		"framer-motion": "^8.5.3",
 		"headlessui": "^0.0.0",
 		"next": "12.1.6",
