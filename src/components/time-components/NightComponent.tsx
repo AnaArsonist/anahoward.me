@@ -47,7 +47,19 @@ function NightComponent() {
   }, []);
 
   return (
-    <div className="bg-[#001324] w-full overflow-hidden bg-clip-padding col-span-1 row-span-1">
+    <motion.div
+      whileHover="groupHover"
+      variants={{
+        groupHover: {
+          scale: 1.01,
+          transition: {
+            duration: 0.1,
+            ease: "easeInOut",
+          },
+        },
+      }}
+      className="bg-[#001324] w-full overflow-hidden bg-clip-padding col-span-1 row-span-1"
+    >
       <canvas
         className="absolute inset-0 h-full w-full opacity-70 md:opacity-100"
         ref={canvasRef}
@@ -100,7 +112,7 @@ function NightComponent() {
           </div>
         </motion.div>
       </motion.div>
-    </div>
+    </motion.div>
   );
 }
 
