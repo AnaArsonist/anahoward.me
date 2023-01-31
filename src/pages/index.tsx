@@ -33,6 +33,11 @@ function Home() {
         <MailCard section={section} />
         <TimeCard section={section} />
       </div>
+      <div className="flex justify-center items-center mt-10">
+        <a href="https://anahoward.me/2004.html">
+          <img src="https://cyber.dabamos.de/88x31/entranceorexit.gif" />
+        </a>
+        </div>
     </div>
   );
 }
