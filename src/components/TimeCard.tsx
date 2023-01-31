@@ -34,6 +34,16 @@ const TimeCard = ({ section }) => {
 
   return (
     <motion.div
+      whileHover="groupHover"
+      variants={{
+        groupHover: {
+          scale: 1.01,
+          transition: {
+            duration: 0.1,
+            ease: "easeInOut",
+          },
+        },
+      }}
       animate={{
         opacity: section && ["all", "about"].includes(section) ? 1 : 0.3,
       }}

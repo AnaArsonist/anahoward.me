@@ -10,19 +10,7 @@ function DayComponent() {
   });
 
   return (
-    <motion.div
-      whileHover="groupHover"
-      variants={{
-        groupHover: {
-          scale: 1.01,
-          transition: {
-            duration: 0.1,
-            ease: "easeInOut",
-          },
-        },
-      }}
-      className="bg-gradient-to-br from-[#0A8DFF] to-[#98CFFF] w-full overflow-hidden col-span-1 row-span-1"
-    >
+    <div className="bg-gradient-to-br from-[#0A8DFF] to-[#98CFFF] w-full overflow-hidden col-span-1 row-span-1">
       <div className="md:m-5 m-2 mt-3 md:mt-5  justify-end">
         <div className="flex items-baseline space-x-1 md:space-x-2 opacity-85">
           <div className="rounded-full bg-white w-2 h-2 md:w-5 md:h-5"></div>
@@ -65,7 +53,7 @@ function DayComponent() {
           </div>
         </motion.div>
       </motion.div>
-    </motion.div>
+    </div>
   );
 }
 
