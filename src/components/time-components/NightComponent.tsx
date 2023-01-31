@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { useEffect, useRef } from "react";
+import { isWindowDefined } from "swr/_internal";
 
 function NightComponent() {
   const canvasRef = useRef<HTMLCanvasElement>(null);
@@ -16,8 +17,9 @@ function NightComponent() {
     const ctx = canvas.getContext("2d");
 
     // set canvas dimensions
-    canvas.width = window.innerWidth / 3;
-    canvas.height = window.innerHeight / 3;
+    const isMobile = window.innerWidth < 768;
+    canvas.width = isMobile ? window.innerWidth : window.innerWidth / 3;
+    canvas.height = isMobile ? window.innerHeight : window.innerHeight / 3;
 
     // draw some stars
     for (let i = 0; i < 100; i++) {
