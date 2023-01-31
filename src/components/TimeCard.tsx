@@ -19,7 +19,6 @@ const TimeCard = ({ section }) => {
   }, [data]);
 
   const timeComponent = useMemo(() => {
-    return <DayComponent />;
     if (!data) return null;
 
     if (isAfter(new Date(), add(sunsetTime, { hours: 1 }))) {
