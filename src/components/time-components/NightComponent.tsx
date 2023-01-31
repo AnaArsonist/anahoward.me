@@ -37,7 +37,7 @@ function NightComponent() {
   return (
     <div className="bg-[#001324] w-full overflow-hidden col-span-1 row-span-1">
       <canvas
-        className="absolute inset-0 h-full w-ful opacity-70 md:opacity-100"
+        className="absolute inset-0 h-full w-full opacity-70 md:opacity-100"
         ref={canvasRef}
       />
       <div className="md:m-5 m-2 mt-3 md:mt-5 justify-end">
