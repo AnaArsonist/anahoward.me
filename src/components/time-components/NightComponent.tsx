@@ -91,11 +91,11 @@ function NightComponent() {
                   repeat: Infinity,
                   repeatType: "reverse",
                 }}
-                className="bg-[#DFDFDF] w-12 h-12 lg:w-24 lg:h-24 rounded-tl-full relative"
+                className="bg-[#DFDFDF] w-12 h-12 lg:w-24 lg:h-24 xl:w-56 xl:h-56 rounded-tl-full relative"
               />
-              <div className="absolute top-14 left-12 md:top-16 md:left-28 w-2 h-2  md:w-4 md:h-4 rounded-full bg-[#C2C2C2]" />
-              <div className="absolute top-10 left-14 md:top-24 md:left-[115px] w-4 h-4 rounded-full bg-[#C2C2C2]" />
-              <div className="absolute top-10 left-10 md:top-20 md:left-20 w-2 h-2 md:w-8 md:h-8 rounded-full bg-[#C2C2C2]" />
+              <div className="absolute top-14 left-12 md:top-16 md:left-28 xl:top-20 xl:left-56 w-2 h-2  md:w-4 md:h-4 xl:h-12 xl:w-12 rounded-full bg-[#C2C2C2]" />
+              <div className="absolute top-10 left-14 md:top-24 md:left-[115px] xl:top-36 xl:left-[230px] w-4 h-4 xl:h-8 xl:w-8 rounded-full bg-[#C2C2C2]" />
+              <div className="absolute top-10 left-10 md:top-20 md:left-20 xl:top-32 xl:left-36 w-2 h-2 md:w-8 md:h-8 xl:w-16 xl:h-16 rounded-full bg-[#C2C2C2]" />
             </div>
           </div>
         </motion.div>
