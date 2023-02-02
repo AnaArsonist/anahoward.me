@@ -20,6 +20,16 @@ export default function Document() {
 				<meta property="twitter:title" content="Ana Howard - Colourful Haired Human" />
 				<meta property="twitter:description" content="" />
 				<meta property="twitter:image" content="https://anahoward.me/images/preview.png"></meta>
+
+				{/* <!-- Google tag (gtag.js) --> */}
+				<script async src="https://www.googletagmanager.com/gtag/js?id=G-HERRG7L4LP"></script>
+				<script>
+					window.dataLayer = window.dataLayer || [];
+					function gtag(){dataLayer.push(arguments);}
+					gtag('js', new Date());
+
+					gtag('config', 'G-HERRG7L4LP');
+				</script>
 			</Head>
 			<body className="bg-[#f7f2f2] dark:bg-gray-800">
 				<Main />
