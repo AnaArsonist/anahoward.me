@@ -13,6 +13,12 @@ export default function Toggle() {
   const [enabled, setEnabled] = useState(false);
   const { resolvedTheme, setTheme } = useTheme();
 
+  const spring = {
+    type: "spring",
+    stiffness: 700,
+    damping: 30,
+  };
+
   const toggleTheme = useCallback(() => {
     setTheme(resolvedTheme === "light" ? "dark" : "light");
   }, [resolvedTheme, setTheme]);
@@ -36,11 +42,13 @@ export default function Toggle() {
       <div className="flex items-center justify-center focus:outline-none">
         <div className="relative">
           <div className="absolute flex items-center">
-            <span
+            <motion.span
+              layout
+              transition={spring}
               aria-hidden="true"
               className={classNames(
                 enabled ? "translate-x-5" : "translate-x-0",
-                "relative pointer-events-none inline-block h-5 w-5 transform rounded-full bg-white dark:bg-gray-900 first-letter:shadow ring-0 transition duration-300 ease-in-out focus:outline-none"
+                "relative pointer-events-none inline-block h-5 w-5 rounded-full bg-white dark:bg-gray-900 first-letter:shadow ring-0 transition duration-300 focus:outline-none"
               )}
             >
               <div className="absolute inset-0 flex items-center justify-center">
@@ -65,7 +73,7 @@ export default function Toggle() {
                   <MoonIcon className="w-3 h-3  dark:stroke-sky-900 fill-sky-900 stroke-sky-900 hidden dark:block" />
                 </motion.div>
               </div>
-            </span>
+            </motion.span>
           </div>
         </div>
       </div>
