@@ -133,8 +133,10 @@ Project Link: [anahoward.me](https://github.com/AnaArsonist/anahoward.me.git)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- USAGE -->
+## Usage
 
-
+If you wish to use this repository, feel free! But please include my name in the repository and give me valid credit!
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
