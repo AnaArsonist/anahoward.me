@@ -128,8 +128,6 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 ## Acknowledgements
 Thank you so much to [@NevFlynn](https://twitter.com/NevFlynn) for inspo based on his website, it's absolutely incredible. Please drop him a follow!
 
-If you wish to use this repository, feel free! But please include my name in the repository and give me valid credit!
-
 <!-- CONTACT -->
 ## Contact
 
