@@ -32,7 +32,6 @@ const OnlineCard = ({ section }) => {
         <div className="flex items-center gap-3">
           {/* Loading Dot Animation */}
           <span className="w-2 h-2 md:h-5 md:w-5">
-            <span className="absolute w-2 h-2 md:w-5 md:h-5 bg-white rounded-full animate-ping" />
             <span className="absolute w-2 h-2 md:w-5 md:h-5 bg-white rounded-full" />
           </span>
           <p>{status}</p>
