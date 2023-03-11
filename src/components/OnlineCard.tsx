@@ -29,8 +29,11 @@ const OnlineCard = ({ section }) => {
       className={`text-white rounded-3xl flex relative overflow-hidden aspect-square shadow-sm ${bgClass}`}
     >
       <div className="absolute inset-0 flex items-center justify-center text-base md:text-2xl xl:text-3xl font-bold">
-        <div className="flex items-center gap-2">
-          <div className="rounded-full bg-white w-2 h-2 md:w-5 md:h-5 shadow-sm" />
+        <div className="flex items-center gap-3">
+          {/* Loading Dot Animation */}
+          <span className="w-2 h-2 md:h-5 md:w-5">
+            <span className="absolute w-2 h-2 md:w-5 md:h-5 bg-white rounded-full" />
+          </span>
           <p>{status}</p>
         </div>
       </div>
