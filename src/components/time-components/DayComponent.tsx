@@ -1,13 +1,18 @@
 import { motion } from "framer-motion";
-import { useEffect, useRef } from "react";
+import { useState,useEffect, useRef } from "react";
 
 function DayComponent() {
   const canvasRef = useRef<HTMLCanvasElement>(null);
-  const time = new Date().toLocaleTimeString("en-GB", {
-    hour: "numeric",
-    minute: "numeric",
-    hour12: true,
-  });
+  const [time, setTime] = useState("");
+  const formatter = new Intl.DateTimeFormat('en-GB',{timeZone:'Europe/London',hour12:true,hour:'numeric',minute:'numeric'})
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setTime(
+        formatter.format(new Date())
+      );
+    }, 1000);
+    return () => clearInterval(interval);
+  }, []);
 
   return (
     <div className="bg-gradient-to-br from-[#0A8DFF] to-[#98CFFF] w-full overflow-hidden col-span-1 row-span-1">

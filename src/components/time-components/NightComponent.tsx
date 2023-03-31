@@ -5,18 +5,13 @@ import { isWindowDefined } from "swr/_internal";
 function NightComponent() {
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const [time, setTime] = useState("");
-
+  const formatter = new Intl.DateTimeFormat('en-GB',{timeZone:'Europe/London',hour12:true,hour:'numeric',minute:'numeric'})
   useEffect(() => {
     const interval = setInterval(() => {
       setTime(
-        new Date().toLocaleTimeString("en-GB", {
-          hour: "numeric",
-          minute: "numeric",
-          hour12: true,
-        })
+        formatter.format(new Date())
       );
     }, 1000);
-
     return () => clearInterval(interval);
   }, []);
 
