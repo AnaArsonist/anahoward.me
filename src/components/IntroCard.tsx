@@ -47,7 +47,7 @@ const IntroCard = ({ section }) => {
         <div className="flex flex-col ml-5 justify-center 2xl:mt-10 sm:-mt-6 sm:ml-8 md:ml-6">
           <div className="lg:text-xl xl:text-2xl 2xl:mr-20 font-nunito dark:text-gray-300">
             {" "}
-            I&apos;m an 19 year-old Frontend Developer and student doing a BASc
+            I&apos;m a 19 year-old Frontend Developer and student doing a BASc
             in Interdisciplinary Problems and Methods @
             <a
               className="ml-1 underline-offset-2 underline focus:outline-none"
